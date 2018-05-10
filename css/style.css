@@ -33,23 +33,28 @@ body {
   color: #282828;
   margin-left: 40px;
   margin-bottom: 14px;
+  margin-top: 25px;
 }
 
 .focuskey {
   width: 562px;
   height: 96px;
-  /*font-family: CocoGothic;*/
+  font-family: CocoGothic;
   font-size: 35px;
   font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
   color: #ffffff;
   text-align: left;
-  display: right;
-  margin-bottom: 20px;
+  
 }
 
 .text-style-1 {
   font-weight: 900;
   color: #282828;
+
 }
 
 .connect-with {
@@ -75,6 +80,7 @@ body {
   font-size: 30px;
   font-weight: 300;
   color: #ffffff;
+  margin-bottom: 40px;
 }
 
 .btn-black {
@@ -90,14 +96,17 @@ body {
   border: none;
   padding-left: 5px;
   vertical-align: top;
+  box-shadow: 0px 3px 18px -6px black;
 }
 
 .email-input {
+  padding-left: 20px;
   width: 376px;
   height: 47px;
   border-bottom-left-radius: 100px;    
   border-top-left-radius: 100px;
   border: none;
+  box-shadow: 0px 3px 18px -6px black;
 }
 
 .float-right {
@@ -115,7 +124,7 @@ body {
 
 .section-1 {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .block {
@@ -145,13 +154,14 @@ body {
 }
 
 .white-background{
-  background-color: white
+  background-color: white;
+  padding-bottom: 20px;
 }
 
 .section-2 {
   margin-left: 83px;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 .border-how {
   width: 1047px;
@@ -178,11 +188,11 @@ body {
   color: white;
   text-align: center;
   display: inline-block;
-  margin-top: 95px;
+  
 }
 .number {
   font-weight: bold;
-  padding-top: 5px;
+  padding-top: 2px;
   font-size: 20px;
 }
 .rect-black {
@@ -194,17 +204,22 @@ body {
 }
 /*about section*/
 .card {
-  width: 18rem;
-  margin: 10px;
-  margin-top: 17px;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.card-text {
   width: 194px;
+  /*width: 18rem;
+  margin: 10px;*/
+  margin-top: -20px;
+  vertical-align: top;
+  display: inline-block!important;
+  background-color: transparent!important;
+  border: none!important;
+}
+.card-body {
   height: 96px;
+  padding: 0px!important;
+}
+.card-text {
   font-size: 18px;
+  margin-top: 5px;
 }
 
 .text-style-3 {
@@ -224,8 +239,11 @@ body {
 .text-bold {
   font-weight: bold;
   font-family: 'CocoGothic';
+  margin-top: 50px;
 }
-
+h2 {
+  font-size: 30px!important;
+}
 ul {
   /*list-style: none;*/
   color: #fca62f;
@@ -263,3 +281,70 @@ ul a:hover {
   margin-left: 16em;
 }
 
+.center {
+  text-align: center;
+}
+.margin-top {
+  margin-top: 20px;
+}
+.bg-color-blue {
+  background-color: #87ced9;
+  padding: 25px 0px;
+
+}
+
+.carousel-indicators {
+  list-style: none;
+
+}
+
+.carousel-indicators li {
+  width: 100px!important;
+  height: 100px!important;
+  position: relative;
+  margin: 10px;
+  background: none!important;
+  border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+  width: 110px!important;
+  height: 110px!important;
+}
+
+.carousel-indicators img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.carousel {
+  margin-bottom: 20px;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.position {
+  max-width: 45em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+.slider-spacing {
+  padding: 0em 13.5em;
+  margin: 5em 0em;
+}
+
+.quote-align {
+  height: 300px;
+  vertical-align: top;
+}
+
+.section-3 {
+  margin-left: 83px;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}

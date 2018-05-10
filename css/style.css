@@ -125,6 +125,7 @@ body {
 .section-1 {
   display: inline-block;
   margin-left: 60px;
+  margin-right: 60px;
 }
 
 .block {
@@ -159,7 +160,8 @@ body {
 }
 
 .section-2 {
-  margin-left: 83px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding-top: 50px;
   margin-bottom: 50px;
 }
@@ -203,7 +205,7 @@ body {
   display: inline-block;
 }
 /*about section*/
-.card {
+.card-how {
   width: 194px;
   /*width: 18rem;
   margin: 10px;*/
@@ -213,11 +215,11 @@ body {
   background-color: transparent!important;
   border: none!important;
 }
-.card-body {
+.card-body-how {
   height: 96px;
   padding: 0px!important;
 }
-.card-text {
+.card-text-how {
   font-size: 18px;
   margin-top: 5px;
 }
@@ -244,14 +246,14 @@ body {
 h2 {
   font-size: 30px!important;
 }
-ul {
+.list ul {
   /*list-style: none;*/
   color: #fca62f;
   /*padding: 0;*/
   /*font-size: 3em;*/
 }
 
-li {
+.list li {
   list-style-type: disc;
   font-size: 2em;
 }
@@ -260,16 +262,16 @@ li {
   font-size: 2em;
 }
 */
-a {
+.list a {
   margin: 0;
   font-size: 20px;
   color: black;
 }
 
-ul a:link {
+.list ul a:link {
   color: black;
 }
-ul a:hover {
+.list ul a:hover {
   color: #FCA62F;
 }
 .list {
@@ -334,7 +336,7 @@ ul a:hover {
 }
 
 .slider-spacing {
-  padding: 0em 13.5em;
+  padding: 0em 12.5em;
   margin: 5em 0em;
 }
 
@@ -344,7 +346,184 @@ ul a:hover {
 }
 
 .section-3 {
-  margin-left: 83px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding-top: 25px;
   margin-bottom: 50px;
+}
+
+.pricing-card {
+  width: 290px;
+  height: 382px;
+  margin: 20px 40px;
+}
+.light-orange-border {
+  border: solid 3px #fdba2e!important;
+}
+.basic-header {
+  background-color: #fdba2e!important;
+  font-size: 28px;
+  /*font-weight: bold;*/
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+  font-family: CocoGothic;
+}
+
+.basic-title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fdba2e;
+  margin-top: -5px;
+}
+
+.light-orange{
+  color: #fdba2e!important;
+}
+.basic-text {
+  padding: 0;
+  margin-left: 16px;
+}
+.basic-text li {
+  list-style-type: circle;
+}
+.basic-text li:before {
+  list-style-type: circle;
+  font-size: 20px;
+
+}
+
+.basic-btn {
+  width: 228px;
+  height: 40px;
+  border-radius: 38px!important;
+  background-color: #fdba2e;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.pricing-button {
+  text-align: center;
+}
+
+.list-color {
+  color: #282828;
+  font-size: 14px;
+}
+
+.custom-title {
+  text-align: center;
+  font-family: CocoGothic;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.05;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #f5a623;
+  margin-top: -5px;
+  padding: 25px 0px;
+}
+.orange {
+  color: #fca62f!important;
+}
+.orange-border {
+  border: solid 3px #fca62f!important;
+}
+
+.orange-bg {
+  background-color: #fca62f!important;
+}
+
+.pro-card {
+  width: 335px;
+  height: 420px;
+  border: solid 3px #87ced9!important;
+}
+
+.pro-header {
+  background-color: #87ced9!important;
+  font-size: 28px;
+  /*font-weight: bold;*/
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+  font-family: CocoGothic;
+}
+
+.light-blue {
+  color: #87ced9!important;
+}
+.light-blue-bg {
+  background-color: #87ced9!important;
+}
+
+.card, .card-header {
+  border-radius: unset!important;
+}
+
+.row-margin {
+  margin-left: 58px!important;
+}
+
+.slider2-width {
+  width: 415px;
+}
+
+.slider2-width p {
+  width: 380px;
+}
+
+#slider2 .carousel-control-prev-icon,
+#slider2 .carousel-control-next-icon {
+  height: 100px!important;
+  width: 50px!important;
+  outline: black;
+  background-size: 100%, 100%!important;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+  background-image: none!important;
+}
+
+#slider2 .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+#slider2 .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+#slider2 .carousel-control-prev,
+#slider2 .carousel-control-next {
+  opacity: 1!important;
+  width: unset!important;
+}
+
+#slider2 .carousel-control-prev:hover,
+#slider2 .carousel-control-next:hover {
+  opacity: 0.5!important;
+}
+
+#slider2 .carousel-inner {
+  padding: 0px 70px;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }

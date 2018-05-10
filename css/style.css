@@ -3,7 +3,14 @@ body {
 }
 
 /*landing pages*/
-
+.cloud {
+  
+  background: url('../images/cloud_lp_2.png');
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .logo {
   width: 184px;
   height: 39px;
@@ -17,7 +24,7 @@ body {
   text-align: center;
   color: #282828;
   margin-left: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .focuskey {
@@ -100,13 +107,12 @@ body {
 
 .section-1 {
   display: inline-block;
+  margin-left: 50px;
 }
 
-.float-left-block {
-  position: absolute;
-  float: left;
-  top: 100px;
-  left: 100px;
+.block {
+  margin-left: 79px;
+  margin-bottom: 10px;
 }
 
 .float-left-vr {
@@ -116,10 +122,125 @@ body {
   left: 115px;
 }
 
+.float-left-chatbot {
+  position: absolute;
+  float: left;
+  top: 30px;
+  left: 50px;
+}
 
+.float-left-ve {
+  position: absolute;
+  float: left;
+  top: 30px;
+  left: 50px;
+}
+
+.white-background{
+  background-color: white
+}
+
+.section-2 {
+  margin-left: 83px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.border-how {
+  width: 1047px;
+  height: 212px;
+  border-left: solid 4px #282828;
+  border-bottom: solid 4px #282828;
+  margin-top: -6px;
+  margin-left: 14px;
+
+}
+
+.inside-how {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.rect-yellow {
+  width: 34px;
+  height: 34px;
+  background-color: #fdba2e;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-top: 95px;
+}
+.number {
+  font-weight: bold;
+  padding-top: 5px;
+  font-size: 20px;
+}
+.rect-black {
+  width: 34px;
+  height: 34px;
+  background-color: #282828;
+  border-radius: 4px;
+  display: inline-block;
+}
 /*about section*/
 .card {
   width: 18rem;
   margin: 10px;
+  margin-top: 17px;
+  vertical-align: top;
+  display: inline-block;
 }
 
+.card-text {
+  width: 194px;
+  height: 96px;
+  font-size: 18px;
+}
+
+.text-style-3 {
+  font-weight: 700;
+  color: #282828;
+}
+
+.text-bold-inline {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: text-bottom;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.text-bold {
+  font-weight: bold;
+  
+}
+
+ul {
+  list-style: none;
+  color: #fca62f;
+  padding: 0;
+  /*font-size: 3em;*/
+}
+
+/*li {
+  list-style-type: disc;
+
+}*/
+li::before {
+  content: "\2022";
+  font-size: 2em;
+}
+
+a {
+  margin: 0;
+  font-size: 20px;
+}
+.list {
+  display: inline-block;
+}
+.bitcoin-img {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 24em;
+}

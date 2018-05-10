@@ -297,7 +297,7 @@ h2 {
 
 .carousel-indicators {
   list-style: none;
-
+  margin: 10px;
 }
 
 .carousel-indicators li {
@@ -307,11 +307,20 @@ h2 {
   margin: 10px;
   background: none!important;
   border-radius: 50%;
+  margin-left: 40px!important;
+  margin-right: 40px!important;
 }
 
 .carousel-indicators li.active {
-  width: 110px!important;
-  height: 110px!important;
+  width: 115px!important;
+  height: 115px!important;
+  box-shadow: 1px 2px 26px 0px black;
+}
+
+.carousel-indicators li:hover {
+  width: 115px!important;
+  height: 115px!important;
+  box-shadow: 1px 2px 26px 0px black;
 }
 
 .carousel-indicators img{

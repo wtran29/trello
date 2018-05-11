@@ -10,7 +10,6 @@ body {
   background-color: #fdba2e!important;
 }
 
-/*landing pages*/
 .cloud {
   
   background: url('../images/cloud_lp_2.png');
@@ -18,6 +17,8 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  
 }
 .logo {
   width: 184px;
@@ -124,14 +125,12 @@ body {
 
 .section-1 {
   display: inline-block;
-  margin-left: 60px;
-  margin-right: 60px;
 }
 
-.block {
+/*.block {
   margin-left: 79px;
   margin-bottom: 10px;
-}
+}*/
 
 .float-left-vr {
   position: absolute;
@@ -204,7 +203,7 @@ body {
   border-radius: 4px;
   display: inline-block;
 }
-/*about section*/
+
 .card-how {
   width: 194px;
   /*width: 18rem;
@@ -247,21 +246,14 @@ h2 {
   font-size: 30px!important;
 }
 .list ul {
-  /*list-style: none;*/
   color: #fca62f;
-  /*padding: 0;*/
-  /*font-size: 3em;*/
 }
 
 .list li {
   list-style-type: disc;
   font-size: 2em;
 }
-/*li::before {
-  content: "\2022";
-  font-size: 2em;
-}
-*/
+
 .list a {
   margin: 0;
   font-size: 20px;
@@ -372,7 +364,6 @@ h2 {
 .basic-header {
   background-color: #fdba2e!important;
   font-size: 28px;
-  /*font-weight: bold;*/
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.4px;
@@ -461,7 +452,6 @@ h2 {
 .pro-header {
   background-color: #87ced9!important;
   font-size: 28px;
-  /*font-weight: bold;*/
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.4px;
@@ -500,7 +490,6 @@ h2 {
   outline: black;
   background-size: 100%, 100%!important;
   border-radius: 50%;
-  /*border: 1px solid black;*/
   background-image: none!important;
 }
 
@@ -535,4 +524,384 @@ h2 {
 .footer {
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+.two {
+  margin-left: 102px;
+}
+
+.three {
+  margin-left: 194px;
+}
+
+.four {
+  margin-left: 140px;
+}
+
+.text-two {
+  width: 299px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px){
+  .cloud, .white-background, .bg-color-blue {
+    padding: 2% 5%!important;
+  }
+
+  .block {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+      
+  }
+  .section-1 {
+    width: 50%;
+  }
+  .focuskey {
+    font-size: 2.5vw;
+    height: unset;
+  }
+
+  .turn-specs {
+    font-size: 2vw;
+    margin-bottom: 3.5vw;
+  }
+  .connect-with {
+    font-size: 1.25vw;
+    height: unset;
+  }
+  .email-input {
+    width: 57%;
+    height: 3.2vw;
+  }
+  .btn-black {
+    font-size: 1.5vw;
+    width: 31%;
+    height: 3.2vw;
+
+  }
+  .section-2{
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .rect-black {
+    width: 3.5%;
+    height: 3vw;
+  }
+  .text-bold-inline {
+    font-size: 3vw!important;
+    display: inline;
+  }
+  .border-how {
+    width: 80%;
+    margin-left: 1.3vw;
+    height: 13vw;
+  }
+
+  .inside-how {
+    font-size: 2.1vw!important;
+    padding: 2vw;
+  }
+
+  .rect-yellow {
+    width: 19%;
+    height: 3.2vw;
+  }
+  .number {
+    font-size: 1.8vw;
+  }
+
+  .card-how {
+    width: 17vw!important;
+    margin-top: -20px!important;
+    margin-left: -.08vw!important;
+  }
+  .card-body-how {
+    width: 100%!important;
+
+  }
+  .card-text-how {
+    font-size: 1.4vw!important;
+    width: 100%!important;
+  }
+  .two, .three, .four {
+    margin-left: 5.5%!important;
+  }
+  .text-two {
+    width: unset;
+  }
+  .text-bold {
+    font-size: 3vw!important;
+  }
+
+  h2 {
+    width: 95%!important;
+    font-size: 2vw!important;
+
+  }
+
+  .list ul {
+    font-size: 1.05vw;
+  }
+
+  .bitcoin-img {
+    width: 55%;
+    margin-left: unset;
+  }
+  .dist-chart {
+    width: 95%;
+  }
+  .quote-size img {
+    /*width: 50%!important;*/
+  }
+
+  .slider-spacing {
+    padding: 0 3%;
+    
+  }
+
+  .position {
+    font-size: 1.3vw!important;
+    max-width: 40em;
+  }
+  .carousel-indicators {
+    margin-left: unset!important;
+    margin-right: unset!important;
+  }
+
+  .carousel-indicators li {
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+  }
+  .section-3 {
+    margin-left: unset;
+    margin-right: unset;
+  }
+  .row-margin {
+    margin-left: unset!important;
+  }
+
+  .card {
+    width: 29%;
+    height: 95%;
+    margin: 1%;
+  }
+
+  .card-header {
+    padding: 2% 4%!important;
+    font-size: 2.5vw;
+  }
+  .card-title .dollar {
+    font-size: 6vw!important;
+  }
+  
+  .card-text li span {
+    font-size: 1.3vw;
+    
+  }
+  .card-body {
+    padding: 1.2vw;
+  }
+  .btn {
+    width: 95%;
+  }
+
+  .custom-title {
+    font-size: 3.5vw!important;
+  }
+  .pro-card {
+    width: 36%;
+  }
+  .slider2-width, .slider2-width p{
+    width: unset;
+  }
+  .slider2-pic {
+    width: 95%;
+  }
+  .footer form {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+
+@media only screen and (min-width: 770px) and (max-width: 1024px){
+  
+
+  
+  .block {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+
+  .section-1 {
+    width: 50%;
+  }
+
+  .focuskey {
+    font-size: 3.2vw;
+    height: unset;
+  }
+
+  .turn-specs {
+    font-size: 2.5vw;
+    margin-bottom: 3.5vw;
+  }
+
+  .connect-with {
+    font-size: 1.47vw;
+    height: unset;
+  }
+  .email-input {
+    width: 68%;
+    height: 4vw;
+  }
+  .btn-black {
+    font-size: 1.7vw;
+    width: 30%;
+    height: 4vw;
+
+  }
+  .section-2{
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .rect-black {
+    width: 4%;
+    height: 3.5vw;
+  }
+  .text-bold-inline {
+    font-size: 3.5vw!important;
+    display: inline;
+  }
+  .border-how {
+    width: 80%;
+    margin-left: 1.5vw;
+    height: 17vw;
+  }
+
+  .inside-how {
+    font-size: 2.2vw!important;
+    padding: 2vw;
+  }
+
+  .rect-yellow {
+    width: 22%;
+    height: 3.5vw;
+  }
+  .number {
+    font-size: 2vw;
+  }
+
+  .card-how {
+    width: 18vw!important;
+    margin-top: -20px!important;
+  }
+  .card-body-how {
+    width: 100%!important;
+
+  }
+  .card-text-how {
+    font-size: 1.6vw!important;
+    width: 100%!important;
+  }
+  .two, .three, .four {
+    margin-left: 5.5%!important;
+  }
+  .text-two {
+    width: unset;
+  }
+  .text-bold {
+    font-size: 3.5vw!important;
+  }
+
+  h2 {
+    width: 95%!important;
+    font-size: 2.5vw!important;
+
+  }
+
+  .list ul {
+    font-size: 1vw;
+  }
+
+  .bitcoin-img {
+    width: 60%;
+    margin-left: unset;
+  }
+  .dist-chart {
+    width: 95%;
+  }
+  .quote-size img {
+    /*width: 50%!important;*/
+  }
+
+  .slider-spacing {
+    padding: 0 2%;
+    /*margin-bottom: unset;*/
+  }
+
+  .position {
+    font-size: 1.5vw!important;
+    max-width: 40em;
+  }
+  .carousel-indicators {
+    margin-left: unset!important;
+    margin-right: unset!important;
+  }
+
+  .section-3 {
+    margin-left: unset;
+    margin-right: unset;
+  }
+  .row-margin {
+    margin-left: unset!important;
+  }
+
+  .card {
+    width: 28%;
+    height: 95%;
+    margin: 1%;
+  }
+
+  .card-header {
+    padding: 2% 4%!important;
+    font-size: 2.5vw;
+  }
+  .card-title .dollar {
+    font-size: 6vw!important;
+  }
+  .card-text li {
+    line-height: 1;
+  }
+  .card-text li span {
+    font-size: 1.6vw;
+    line-height: unset;
+  }
+  .card-body {
+    padding: 1.2vw;
+  }
+  .btn {
+    width: 95%;
+  }
+
+  .custom-title {
+    font-size: 3.5vw!important;
+  }
+  .pro-card {
+    width: 36%;
+  }
+  .slider2-width, .slider2-width p{
+    width: unset;
+  }
+  .slider2-pic {
+    width: 95%;
+  }
+  .footer form {
+    margin: auto;
+    width: 60%;
+  }
 }
